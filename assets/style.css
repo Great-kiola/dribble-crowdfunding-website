@@ -33,18 +33,19 @@ body {
 
 .tip {
     color: var(--textYellow);
-    display: flex;
     width: 300px;
     border-radius: 50px;
-    /* background-color: var(--searchBlue); */
-    /* margin-bottom: 15px; */
+    background-color: var(--searchBlue);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .tip p {
     text-align: center;
     font-size: .6rem;
-    line-height: 2.2;
-    /* padding: 5px; */
+    padding: 5px;
 }
 
 .mainText {
@@ -135,6 +136,7 @@ input[type="search"] {
     border: 2px solid var(--searchBlue);
     border-radius: 15px;
     overflow: hidden;
+    position: relative;
 }
 
 .box2{
@@ -145,8 +147,9 @@ input[type="search"] {
 }
 
 .box2 h1{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 400;
+    letter-spacing: 4px;
 }
 
 .box2 p{
@@ -155,7 +158,7 @@ input[type="search"] {
     opacity: 70%;
 }
 
-.getFunded{
+.btn2{
     padding: 15px;
     border-radius: 10px;
     border: none;
@@ -164,8 +167,24 @@ input[type="search"] {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     cursor: pointer;
+    transition: transform 0.3s;
 }
 
+.btn2:hover{
+    transform: scale(1.1);
+}
+
+.getInvest{
+    background-color: var(--btnBlue);
+    color: var(--white);
+}
+
+.image{
+    width: 60px;
+    position: absolute;
+    top: 130px;
+    right: 20px;
+}
 
 
 
