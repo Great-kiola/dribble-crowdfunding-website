@@ -4,14 +4,171 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Archivo Black', sans-serif;
-    font-family: 'Dela Gothic One', cursive;
     font-family: 'Poppins', sans-serif;
+}
+
+h1 {
     font-family: 'Russo One', sans-serif;
+    font-size: 2.5rem;
 }
 
 body {
     min-height: 100vh;
     line-height: 1.5;
+    display: flex;
+    justify-content: center;
+}
 
+.section1 {
+    background-image: var(--firstSection);
+    width: 100%;
+    /* height: 800px; */
+    color: var(--white);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.tip {
+    color: var(--textYellow);
+    display: flex;
+    width: 300px;
+    border-radius: 50px;
+    /* background-color: var(--searchBlue); */
+    /* margin-bottom: 15px; */
+}
+
+.tip p {
+    text-align: center;
+    font-size: .6rem;
+    line-height: 2.2;
+    /* padding: 5px; */
+}
+
+.mainText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 850px;
+}
+
+
+.mainText h1 {
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.mainText p {
+    width: 700px;
+    font-size: .87rem;
+    margin-bottom: 10px;
+}
+
+
+input[type="search"] {
+    width: 450px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--searchBlue);
+    color: var(--white);
+    position: relative;
+}
+
+::placeholder {
+    color: var(--white);
+    font-size: .7rem;
+}
+
+.btnInputDiv{
+    position: relative;
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 10px 35px;
+    width: 100px;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    right: 110px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--btnYellow);
+}
+
+.inputClass{
+    position: relative;
+}
+
+.btnClass{
+    position: relative;
+    top: -46px;
+    left: 280px;
+}
+
+.search{
+    position: absolute;
+    color: var(--black);
+    top: 10px;
+    left: 80px;
+    z-index: 1;
+}
+
+.box1{
+    background-color: var(--searchBlue);
+    width: 450px;
+    border: 2px solid var(--searchBlue);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.box2{
+    background-color: var(--box2);
+    border-radius: 0px 0px 150px 0px;
+    text-align: left;
+    padding: 20px;
+    font-size: rem;
+}
+
+.box2 h1{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.box2 p{
+    font-size: .8rem;
+    margin: 10px auto;
+}
+
+.getFunded{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--btnYellow);
+    font-size: .7rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+:root {
+    --section2: #f9fafcff;
+    --firstSection: linear-gradient(90deg, #0225d8ff, #026ee9);
+    --btnYellow: #f8d849;
+    --btnBlue: #026af1ff;
+    --searchBlue: #346ee9;
+    --white: #fff;
+    --textYellow: #deea71;
+    --black: #000;
+    --box2: #2859e1ff;
 }
