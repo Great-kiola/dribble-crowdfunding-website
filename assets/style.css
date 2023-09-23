@@ -31,6 +31,65 @@ body {
     padding-top: 200px;
 }
 
+header {
+    width: 60%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    position: fixed;
+    top: 20px;
+}
+
+.logoLinks {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+ul li {
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+ul li:hover {
+    background-color: var(--searchBlue);
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.login {
+    background: transparent;
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.signUp {
+    background: var(--white);
+    color: var(--btnBlue);
+    padding: 10px 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
 .tip {
     color: var(--textYellow);
     width: 300px;
@@ -84,12 +143,12 @@ input[type="search"] {
     font-size: .7rem;
 }
 
-.btnInputDiv{
+.btnInputDiv {
     position: relative;
     margin-top: 10px;
 }
 
-.btn{
+.btn {
     padding: 10px 35px;
     width: 100px;
     border-radius: 8px;
@@ -102,21 +161,21 @@ input[type="search"] {
     font-size: .7rem;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: var(--btnYellow);
 }
 
-.inputClass{
+.inputClass {
     position: relative;
 }
 
-.btnClass{
+.btnClass {
     position: relative;
     top: -44px;
     left: 280px;
 }
 
-.search{
+.search {
     position: absolute;
     color: var(--searchBlue);
     top: 8px;
@@ -125,12 +184,12 @@ input[type="search"] {
     font-size: .8rem;
 }
 
-.cards{
+.cards {
     display: flex;
     gap: 25px;
 }
 
-.box1{
+.box1 {
     background-color: var(--searchBlue);
     width: 450px;
     border: 2px solid var(--searchBlue);
@@ -139,26 +198,26 @@ input[type="search"] {
     position: relative;
 }
 
-.box2{
+.box2 {
     background-color: var(--box2);
     border-radius: 0px 0px 150px 0px;
     text-align: left;
     padding: 20px;
 }
 
-.box2 h1{
+.box2 h1 {
     font-size: 1.4rem;
     font-weight: 400;
     letter-spacing: 4px;
 }
 
-.box2 p{
+.box2 p {
     font-size: .8rem;
     margin: 15px auto;
     opacity: 70%;
 }
 
-.btn2{
+.btn2 {
     padding: 15px;
     border-radius: 10px;
     border: none;
@@ -170,16 +229,16 @@ input[type="search"] {
     transition: transform 0.3s;
 }
 
-.btn2:hover{
+.btn2:hover {
     transform: scale(1.1);
 }
 
-.getInvest{
+.getInvest {
     background-color: var(--btnBlue);
     color: var(--white);
 }
 
-.image{
+.image {
     width: 60px;
     position: absolute;
     top: 130px;
