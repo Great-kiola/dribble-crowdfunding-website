@@ -22,7 +22,7 @@ body {
 .section1 {
     background-image: var(--firstSection);
     width: 100%;
-    /* height: 800px; */
+    height: 800px;
     color: var(--white);
     text-align: center;
     display: flex;
@@ -96,6 +96,9 @@ input[type="search"] {
     position: relative;
     right: 110px;
     cursor: pointer;
+    color: var(--searchBlue);
+    font-weight: 500;
+    font-size: .7rem;
 }
 
 .btn:hover{
@@ -108,16 +111,22 @@ input[type="search"] {
 
 .btnClass{
     position: relative;
-    top: -46px;
+    top: -44px;
     left: 280px;
 }
 
 .search{
     position: absolute;
-    color: var(--black);
-    top: 10px;
+    color: var(--searchBlue);
+    top: 8px;
     left: 80px;
     z-index: 1;
+    font-size: .8rem;
+}
+
+.cards{
+    display: flex;
+    gap: 25px;
 }
 
 .box1{
@@ -133,7 +142,6 @@ input[type="search"] {
     border-radius: 0px 0px 150px 0px;
     text-align: left;
     padding: 20px;
-    font-size: rem;
 }
 
 .box2 h1{
@@ -143,7 +151,8 @@ input[type="search"] {
 
 .box2 p{
     font-size: .8rem;
-    margin: 10px auto;
+    margin: 15px auto;
+    opacity: 70%;
 }
 
 .getFunded{
@@ -154,7 +163,12 @@ input[type="search"] {
     font-size: .7rem;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    cursor: pointer;
 }
+
+
+
+
 
 
 
