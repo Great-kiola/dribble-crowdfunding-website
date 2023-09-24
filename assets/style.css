@@ -461,8 +461,6 @@ input[type="search"]:focus {
     border-radius: 10px;
     background-color: var(--searchBlue);
     position: absolute;
-    top: 0;
-    left: 0;
 }
 
 
