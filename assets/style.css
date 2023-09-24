@@ -355,6 +355,7 @@ input[type="search"]:focus {
 }
 
 .productCard{
+    margin-left: 500px;
     display: flex;
     gap: 20px;
 }
@@ -390,6 +391,7 @@ input[type="search"]:focus {
     width: 250px;
     transition: all .6s ease-out;
     cursor: pointer;
+    object-fit: cover;
 }
 
 .prodDetails{
