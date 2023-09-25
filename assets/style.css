@@ -1,478 +1,475 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dela+Gothic+One&family=Poppins:wght@300;400;500;600;700;800&family=Russo+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dela+Gothic+One&family=Poppins:wght@300;400;500;600;700;800&family=Russo+One&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
-    font-family: 'Russo One', sans-serif;
-    font-size: 2.5rem;
+  font-family: "Russo One", sans-serif;
+  font-size: 2.5rem;
 }
 
 body {
-    min-height: 100vh;
-    line-height: 1.5;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
 }
 
 .section1 {
-    background-image: var(--firstSection);
-    width: 100%;
-    height: 800px;
-    color: var(--white);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 200px;
+  background-image: var(--firstSection);
+  width: 100%;
+  height: 800px;
+  color: var(--white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 200px;
 }
 
 header {
-    width: 60%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-    position: relative;
-    bottom: 170px;
+  width: 60%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  position: relative;
+  bottom: 170px;
 }
 
-.links .submenu{
-    display: flex;
-    align-items:flex-start;
-    flex-direction: column;
-    position: absolute;
-    background-color: var(--section2);
-    padding: 20px;
-    border-radius: 5px;
-    /* left: 250px; */
-    opacity: 0;
-    z-index: -999;
+.links .submenu {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+  background-color: var(--section2);
+  padding: 20px;
+  border-radius: 5px;
+  /* left: 250px; */
+  opacity: 0;
+  z-index: -999;
 }
 
-.links ul li:hover .submenu{
-    opacity: 100%;
-    z-index: 99;
+.links ul li:hover .submenu {
+  opacity: 100%;
+  z-index: 99;
 }
 
-.links .submenu li a{
-    text-decoration: none;
-    font-size: .8rem;
+.links .submenu li a {
+  text-decoration: none;
+  font-size: 0.8rem;
 }
 
-
-.textLinks{
-    margin-top: -60px;
+.textLinks {
+  margin-top: -60px;
 }
 
 .logoLinks {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    gap: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 150px;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 ul li {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.links ul li:hover{
-    color: var(--textYellow);
+.links ul li:hover {
+  color: var(--textYellow);
 }
 
 .buttons {
-    display: flex;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .login {
-    background: transparent;
-    border: none;
-    color: var(--white);
-    cursor: pointer;
+  background: transparent;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
 }
 
 .signUp {
-    background: var(--white);
-    color: var(--btnBlue);
-    padding: 10px 25px;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    transition: transform 0.3s;
+  background: var(--white);
+  color: var(--btnBlue);
+  padding: 10px 25px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s;
 }
 
-.signUp:hover{
-    background-color: var(--btnYellow);
-    transform: scale(1.1);
+.signUp:hover {
+  background-color: var(--btnYellow);
+  transform: scale(1.1);
 }
-
 
 .tip {
-    color: var(--textYellow);
-    width: 300px;
-    border-radius: 50px;
-    background-color: var(--searchBlue);
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  color: var(--textYellow);
+  width: 300px;
+  border-radius: 50px;
+  background-color: var(--searchBlue);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .tip p {
-    text-align: center;
-    font-size: .6rem;
-    padding: 5px;
+  text-align: center;
+  font-size: 0.6rem;
+  padding: 5px;
 }
 
 .mainText {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 850px;
 }
 
-
 .mainText h1 {
-    line-height: 1.2;
-    margin-bottom: 10px;
+  line-height: 1.2;
+  margin-bottom: 10px;
 }
 
 .mainText p {
-    width: 700px;
-    font-size: .87rem;
-    margin-bottom: 10px;
+  width: 700px;
+  font-size: 0.87rem;
+  margin-bottom: 10px;
 }
 
-
 input[type="search"] {
-    width: 450px;
-    padding: 15px 25px;
-    border-radius: 10px;
-    border: none;
-    background-color: var(--searchBlue);
-    color: var(--white);
-    position: relative;
-    margin-top: 20px;
+  width: 450px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--searchBlue);
+  color: var(--white);
+  position: relative;
+  margin-top: 20px;
 }
 
 input[type="search"]:focus {
-    border: none;
-    outline: none;
+  border: none;
+  outline: none;
 }
 
 ::placeholder {
-    color: var(--white);
-    font-size: .7rem;
+  color: var(--white);
+  font-size: 0.7rem;
 }
 
 .btnInputDiv {
-    position: relative;
-    margin-top: 10px;
+  position: relative;
+  margin-top: 10px;
 }
 
 .btn {
-    padding: 10px 35px;
-    width: 100px;
-    border-radius: 8px;
-    border: none;
-    position: relative;
-    right: 110px;
-    cursor: pointer;
-    color: var(--searchBlue);
-    font-weight: 500;
-    font-size: .7rem;
+  padding: 10px 35px;
+  width: 100px;
+  border-radius: 8px;
+  border: none;
+  position: relative;
+  right: 110px;
+  cursor: pointer;
+  color: var(--searchBlue);
+  font-weight: 500;
+  font-size: 0.7rem;
 }
 
 .btn:hover {
-    background-color: var(--btnYellow);
+  background-color: var(--btnYellow);
 }
 
 .inputClass {
-    position: relative;
+  position: relative;
 }
 
 .btnClass {
-    position: relative;
-    top: -44px;
-    left: 280px;
+  position: relative;
+  top: -44px;
+  left: 280px;
 }
 
 .search {
-    position: absolute;
-    color: var(--searchBlue);
-    top: 8px;
-    left: 80px;
-    z-index: 1;
-    font-size: .8rem;
+  position: absolute;
+  color: var(--searchBlue);
+  top: 8px;
+  left: 80px;
+  z-index: 1;
+  font-size: 0.8rem;
 }
 
 .cards {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
 }
 
 .box1 {
-    background-color: var(--searchBlue);
-    width: 450px;
-    border: 2px solid var(--searchBlue);
-    border-radius: 15px;
-    overflow: hidden;
-    position: relative;
+  background-color: var(--searchBlue);
+  width: 450px;
+  border: 2px solid var(--searchBlue);
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
 }
 
 .box2 {
-    background-color: var(--box2);
-    border-radius: 0px 0px 150px 0px;
-    text-align: left;
-    padding: 20px;
+  background-color: var(--box2);
+  border-radius: 0px 0px 150px 0px;
+  text-align: left;
+  padding: 20px;
 }
 
 .box2 h1 {
-    font-size: 1.4rem;
-    font-weight: 400;
-    letter-spacing: 4px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 4px;
 }
 
 .box2 p {
-    font-size: .8rem;
-    margin: 15px auto;
-    opacity: 70%;
+  font-size: 0.8rem;
+  margin: 15px auto;
+  opacity: 70%;
 }
 
 .btn2 {
-    padding: 15px;
-    border-radius: 10px;
-    border: none;
-    background-color: var(--btnYellow);
-    font-size: .7rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    cursor: pointer;
-    transition: transform 0.3s;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--btnYellow);
+  font-size: 0.7rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s;
 }
 
 .btn2:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .getInvest {
-    background-color: var(--btnBlue);
-    color: var(--white);
+  background-color: var(--btnBlue);
+  color: var(--white);
 }
 
 .image {
-    width: 60px;
-    position: absolute;
-    top: 130px;
-    right: 20px;
+  width: 60px;
+  position: absolute;
+  top: 130px;
+  right: 20px;
 }
-
 
 /* Section 2 */
 
-.section2{
-    background-color: var(--section2);
-    width: 100%;
-    height: 800px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.section2 {
+  background-color: var(--section2);
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.head{
-    margin-top: 70px;
-    width: 1000px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.head {
+  margin-top: 70px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.head h1{
-    width: 35%;
-    line-height: 1.2;
-    font-weight: 400;
-    font-size: 1.5rem;
+.head h1 {
+  width: 35%;
+  line-height: 1.2;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
-.head h1 span{
-    font-size: .8rem;
-    background-color: var(--btnYellow);
-    padding: 8px 25px;
-    margin-bottom: 15px;
-    border-radius: 20px;
-    position: relative;
-    font-weight: bold;
+.head h1 span {
+  font-size: 0.8rem;
+  background-color: var(--btnYellow);
+  padding: 8px 25px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  position: relative;
+  font-weight: bold;
 }
 
-.head h1 span::before{
-    content: "";
-    width: 8px;
-    height: 8px;
-    background-color: var(--black);
-    position: absolute;
-    border-radius: 10px;
-    top: 13px;
-    left: 12px;
+.head h1 span::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: var(--black);
+  position: absolute;
+  border-radius: 10px;
+  top: 13px;
+  left: 12px;
 }
 
-.pagination{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.uil-arrow-left, .uil-arrow-right{
-    background-color: var(--white);
-    border-radius: 100%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+.uil-arrow-left,
+.uil-arrow-right {
+  background-color: var(--white);
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
-.uil-arrow-left:hover, .uil-arrow-right:hover{
-    background-color: var(--btnBlue);
-    color: var(--white);
+.uil-arrow-left:hover,
+.uil-arrow-right:hover {
+  background-color: var(--btnBlue);
+  color: var(--white);
 }
 
-.productCard{
-    margin-left: 500px;
-    display: flex;
-    gap: 20px;
+.productCard {
+  margin-left: 500px;
+  display: flex;
+  gap: 20px;
 }
 
-.card{
-    margin: 40px auto 10px;
-    background-color: var(--white);
-    padding: 15px;
-    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
-    border-radius: 5px;
+.card {
+  margin: 40px auto 10px;
+  background-color: var(--white);
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  border-radius: 5px;
 }
 
-.tags{
-    width: 10px;
+.tags {
+  width: 10px;
 }
 
-.tags ul{
-    font-size: .6rem;
-    font-weight: 500;
-    margin-bottom: 10px;
+.tags ul {
+  font-size: 0.6rem;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
-.imgDiv{
-    position: relative;
-    width: 250px;
-    height: 150px;
-    overflow: hidden;
-    border-radius: 5px;
-    margin-bottom: 15px;
+.imgDiv {
+  position: relative;
+  width: 250px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 15px;
 }
 
-.imgDiv img{
-    width: 250px;
-    transition: all .6s ease-out;
-    cursor: pointer;
-    object-fit: cover;
+.imgDiv img {
+  width: 250px;
+  transition: all 0.6s ease-out;
+  cursor: pointer;
+  object-fit: cover;
 }
 
-.prodDetails{
-    width: 200px;
+.prodDetails {
+  width: 200px;
 }
 
-.prodDetails h1{
-    font-weight: 800;
-    font-size: 1rem;
-    font-family: 'poppins', sans-serif;
+.prodDetails h1 {
+  font-weight: 800;
+  font-size: 1rem;
+  font-family: "poppins", sans-serif;
 }
 
-.prodDetails p{
-    font-size: .6rem;
+.prodDetails p {
+  font-size: 0.6rem;
 }
 
-.stats{
-    margin-top: 10px;
-    background-color: var(--subtleBlue);
-    padding: 15px;
-    border-radius: 10px;
+.stats {
+  margin-top: 10px;
+  background-color: var(--subtleBlue);
+  padding: 15px;
+  border-radius: 10px;
 }
 
-.stats .statistics{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
+.stats .statistics {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
-.stats .statistics h1{
-    font-size: .8rem;
-    font-family: 'poppins', sans-serif;
+.stats .statistics h1 {
+  font-size: 0.8rem;
+  font-family: "poppins", sans-serif;
 }
 
-.stats .statistics p{
-    font-size: .6rem;
+.stats .statistics p {
+  font-size: 0.6rem;
 }
 
-.stats .range{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.stats .range {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.stats .range p{
-    font-size: .6rem;
+.stats .range p {
+  font-size: 0.6rem;
 }
 
-.stats .range span{
-    font-weight: bolder;
+.stats .range span {
+  font-weight: bolder;
 }
 
-.bar{
-    width: 100%;
-    border-radius: 10px;
-    height: 7px;
-    background-color: var(--white);
-    position: relative;
-    margin-bottom: 10px;
+.bar {
+  width: 100%;
+  border-radius: 10px;
+  height: 7px;
+  background-color: var(--white);
+  position: relative;
+  margin-bottom: 10px;
 }
 
-.bar::before{
-    content: "";
-    width: 50%;
-    height: 7px;
-    border-radius: 10px;
-    background-color: var(--searchBlue);
-    position: absolute;
+.bar::before {
+  content: "";
+  width: 50%;
+  height: 7px;
+  border-radius: 10px;
+  background-color: var(--searchBlue);
+  position: absolute;
 }
-
 
 :root {
-    --section2: #f9fafcff;
-    --firstSection: linear-gradient(90deg, #0225d8ff, #026ee9);
-    --btnYellow: #f8d849;
-    --btnBlue: #026af1ff;
-    --searchBlue: #346ee9;
-    --white: #fff;
-    --textYellow: #deea71;
-    --black: #000;
-    --box2: #2859e1ff;
-    --subtleBlue: #e6f0fe;
+  --section2: #f9fafcff;
+  --firstSection: linear-gradient(90deg, #0225d8ff, #026ee9);
+  --btnYellow: #f8d849;
+  --btnBlue: #026af1ff;
+  --searchBlue: #346ee9;
+  --white: #fff;
+  --textYellow: #deea71;
+  --black: #000;
+  --box2: #2859e1ff;
+  --subtleBlue: #e6f0fe;
 }
