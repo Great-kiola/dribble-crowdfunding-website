@@ -17,6 +17,7 @@ body {
   line-height: 1.5;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .section1 {
@@ -283,7 +284,7 @@ input[type="search"]:focus {
 .section2 {
   background-color: var(--section2);
   width: 100%;
-  height: 800px;
+  height: 650px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -459,6 +460,39 @@ input[type="search"]:focus {
   border-radius: 10px;
   background-color: var(--searchBlue);
   position: absolute;
+}
+
+.section3{
+  /* background-image: var(--firstSection); */
+  width: 30%;
+  height: 800px;
+  color: var(--black);
+  text-align: flex-start;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.logo2{
+  width: 110px;
+  background-color: var(--btnYellow);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.logo2 h1{
+  font-size: 1rem;
+  font-family:'poppins', sans-serif;
+}
+
+.blue{
+  padding: 10px 25px;
+  border-radius: 6px;
+  border: none;
+  background-color: var(--btnBlue);
+  color: var(--white);
+  margin-top: 20px;
 }
 
 :root {
