@@ -462,37 +462,58 @@ input[type="search"]:focus {
   position: absolute;
 }
 
-.section3{
+.section3 {
   /* background-image: var(--firstSection); */
-  width: 30%;
-  height: 800px;
+  width: 55%;
   color: var(--black);
   text-align: flex-start;
   display: flex;
   align-items: center;
-  flex-direction: column;
   margin-top: 20px;
 }
 
-.logo2{
+.div2{
+  width: 400px;
+}
+
+.div2 p{
+  font-size: .8rem;
+}
+
+.logo2 {
   width: 110px;
   background-color: var(--btnYellow);
   padding: 10px 20px;
   border-radius: 20px;
 }
 
-.logo2 h1{
+.logo2 h1 {
   font-size: 1rem;
-  font-family:'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
-.blue{
+.blue {
   padding: 10px 25px;
   border-radius: 6px;
   border: none;
   background-color: var(--btnBlue);
   color: var(--white);
   margin-top: 20px;
+  cursor: pointer;
+}
+
+.blue:hover{
+  background-color: var(--btnYellow);
+  color: var(--black);
+}
+
+.div1 {
+  width: 50%;
+}
+
+.div1 img {
+  max-width: 75%;
+  max-height: 20%;
 }
 
 :root {
