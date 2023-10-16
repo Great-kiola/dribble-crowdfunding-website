@@ -508,13 +508,23 @@ input[type="search"]:focus {
 }
 
 .div1 {
-  width: 50%;
+  /* width: 50%; */
+  transform: skew(-4deg);
+  
 }
 
-.div1 img {
-  max-width: 75%;
-  max-height: 20%;
+.div1 .imgDiv{
+  max-width: 700px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2487&q=80");
 }
+
+/* .div1 img {
+  max-width: 95%;
+  height: 500px;
+  
+} */
 
 :root {
   --section2: #f9fafcff;
