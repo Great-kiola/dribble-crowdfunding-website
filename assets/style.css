@@ -43,17 +43,23 @@ header {
   bottom: 170px;
 }
 
+.list{
+  padding: 10px;
+}
+
 .links .submenu {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   position: absolute;
   background-color: var(--section2);
-  padding: 20px;
+  padding: 10px;
   border-radius: 5px;
-  /* left: 250px; */
+  width: 200px;
+  top: 50px;
   opacity: 0;
   z-index: -999;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
 .links ul li:hover .submenu {
@@ -61,9 +67,22 @@ header {
   z-index: 99;
 }
 
-.links .submenu li a {
+.submenu a {
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: .8rem;
+  color: var(--black);
+}
+
+.submenu li {
+  padding: 10px 15px;
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+} 
+
+.submenu li:hover{
+  background-color: var(--lightBlue);
+
 }
 
 .textLinks {
@@ -536,5 +555,6 @@ input[type="search"]:focus {
   --textYellow: #deea71;
   --black: #000;
   --box2: #2859e1ff;
+  --lightBlue: rgb(148, 174, 244);
   --subtleBlue: #e6f0fe;
 }
