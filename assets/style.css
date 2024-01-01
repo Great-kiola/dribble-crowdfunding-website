@@ -43,6 +43,12 @@ header {
   bottom: 170px;
 }
 
+.logo h2 a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--white);
+}
+
 .list{
   padding: 10px;
 }
